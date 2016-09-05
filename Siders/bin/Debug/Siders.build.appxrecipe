@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-I2MT99K</Machine>
+    <WindowsUser>Mladen</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>45813b7f-6e65-416d-bc08-530d758ffc88</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\Siders.exe">
+      <PackagePath>Siders.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\src\point.png">
+      <PackagePath>src\point.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\src\swap_V.png">
+      <PackagePath>src\swap_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\src\swap_H.png">
+      <PackagePath>src\swap_H.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\src\wall_H.png">
+      <PackagePath>src\wall_H.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\src\wall_V.png">
+      <PackagePath>src\wall_V.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\Siders.xr.xml">
+      <PackagePath>Siders.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\view\EndingMesseges.xbf">
+      <PackagePath>view\EndingMesseges.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\view\Game.xbf">
+      <PackagePath>view\Game.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\view\ListPage.xbf">
+      <PackagePath>view\ListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\view\Login.xbf">
+      <PackagePath>view\Login.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mladen\documents\visual studio 2015\Projects\Siders\Siders\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

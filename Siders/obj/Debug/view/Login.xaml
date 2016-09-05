@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="Siders.view.Login"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Siders.view"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="using:Siders.viewmodel.viewmodel"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Page.Resources>
+        <vm:ViewModelLogin x:Key="ViewModelLogin"/>
+    </Page.Resources>
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            
+            <Button Grid.Column="1" Grid.Row="1" Margin="100,0,0,0" Width="250" Content="Play"
+                    Command="{Binding PlayCommand, Source={StaticResource ViewModelLogin}}"
+                  ></Button>
+
+            <Button Grid.Column="1" Grid.Row="2" Margin="100,0,0,43" Width="250" Content="List"
+                    Command="{Binding ListScores, Source={StaticResource ViewModelLogin}}"
+                  ></Button>
+
+        </Grid>
+    </Grid>
+</Page>
+
